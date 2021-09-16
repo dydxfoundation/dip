@@ -1,0 +1,42 @@
+name: Upload IPFS
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  upload-to-ipfs: 
+    name: dip-uploader
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Rename dip to upper case
+        run: cd content/dips && bash toUpper.sh || true && cd ../..
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: Install dependencies
+        run: npm install
+      
+      - name: Parse Markdown
+        run: npm run parse-markdown
+
+      - name: Upload to Pinata and the Graph IPFS
+        env:
+          PINATA_KEY: ${{ secrets.PINATA_KEY }}
+          PINATA_SECRET: ${{ secrets.PINATA_SECRET }}
+        run: npm run upload:pinata-thegraph
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v6
+        with:
+          author_name: GitHub Actions
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: '[PIPELINE] Committed IPFS uploads'
+          add: '.'

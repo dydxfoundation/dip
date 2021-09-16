@@ -49,25 +49,18 @@
     "gh-pages": "^2.2.0",
     "prettier": "2.0.4"
   },
-  "homepage": "https://github.com/dYdX/dip",
+  "homepage": "https://github.com/dydxfoundation/dip",
   "keywords": [
     "gatsby"
   ],
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dYdX/dip"
+    "url": "git+https://github.com/dydxfoundation/dip"
   },
   "scripts": {
-    "build": "gatsby build --prefix-paths",
-    "develop": "gatsby develop",
     "parse-markdown": "m2j ./content/dips/*.md -c -o ./content/ipfs-dips/all-dips.json",
     "upload:pinata-thegraph": "node dip-uploader.js && rm tmp",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve --prefix-paths",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
   }
 }
