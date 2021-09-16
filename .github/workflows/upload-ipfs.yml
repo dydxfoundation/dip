@@ -4,6 +4,9 @@ on:
   pull_request:
     branches:
       - master
+  push:
+    branches:
+      - lucas/add-workflow-test
 
 jobs:
   upload-to-ipfs: 
