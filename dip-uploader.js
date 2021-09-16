@@ -81,7 +81,6 @@ async function main() {
   }
 }
 
-<<<<<<< HEAD
 
 (async () => {
   try {
@@ -91,5 +90,3 @@ async function main() {
     exit(1)
   }
 })();
-=======
->>>>>>> 19bfb0d (Fix uploader)
