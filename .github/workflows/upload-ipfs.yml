@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - master
+      - lucas/fix-uploader
 
 jobs:
   upload-to-ipfs: 
