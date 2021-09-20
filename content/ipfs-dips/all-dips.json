@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "DIP": "<to be assigned>",
+    "title": "<DIP title>",
+    "status": "WIP",
+    "author": "FirstName LastName (@GitHubUsername)",
+    "shortDescription": "<Short description of DIP>",
+    "discussions": "<Discord Channel or Github issue>",
+    "created": "<date created on, in ISO 8601 (yyyy-mm-dd) format>",
+    "updated (*optional)": "<date created on, in ISO 8601 (yyyy-mm-dd) format> or N/A",
+    "requires (*optional)": "<DIP number(s)>",
+    "preview": "This is the template for DIPs.\n\nNote that a DIP number will be …",
+    "basename": "DIP-0",
+    "description": "\n\nThis is the template for DIPs.\n\nNote that a DIP number will be assigned by an editor. When opening a pull request to submit your DIP, please use an abbreviated title in the filename, `DIP-draft_title_abbrev.md`.\n\nThe title should be 44 characters or less.\n\n## Simple Summary\n\nIf you can't explain it simply, you don't understand it well enough.\" Provide a simplified and layman-accessible explanation of the DIP.\n\n## Abstract\n\nA short (~200 word) description of the technical issue being addressed.\n\n## Motivation\n\nThe motivation is critical for DIPs that want to change dYdX. It should clearly explain why the existing protocol specification is inadequate to address the problem that the DIP solves. DIP submissions without sufficient motivation may be rejected outright.\n\n## Specification\n\nThe technical specification should describe the syntax and semantics of any new feature.\n\n## Rationale\n\nThe rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->\n\n## Test Cases\n\nTest cases for an implementation are mandatory for DIPs but can be included with the implementation.\n\n## Implementation\n\nThe implementations must be completed before any DIP is given status \"Implemented\", but it need not be completed before the DIP is \"Approved\". While there is merit to the approach of reaching consensus on the specification and rationale before writing code, the principle of \"rough consensus and running code\" is still useful when it comes to resolving many discussions of API details.\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).\n",
+    "ipfsHash": "QmaGRDxdz52ZWSgFzQxfhZE8kWH6DmWg7Lz9MFW4o7vAJs",
+    "encodeIpfsHash": "0xb136ac097198d01c08024c98922b5f06151c7bbb1b9557c3b65ccde5f0c746f8"
+  }
+]
