@@ -1,7 +1,7 @@
 ---
 DIP: 1
 title: Safety Module Restoration & Staker Recovery
-status: WIP
+status: Proposed
 author: Paradigm
 shortDescription: Restore functionality to the Safety Module staking pool.
 discussions: https://commonwealth.im/dydx/proposal/discussion/1743-safety-staking-pool-on-pause
