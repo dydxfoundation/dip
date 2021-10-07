@@ -3,7 +3,7 @@ DIP: 2
 title: Reduce Market Maker incentives
 status: WIP
 author: Jacob Goh (@jteamdc)
-short description: Reduce Market Maker incentives from 1,150,685 to 1,000,000 per epoch
+short description: Reducing market maker threshold from 5% to 1%
 discussions: https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/
 created: 2021-10-07
 
