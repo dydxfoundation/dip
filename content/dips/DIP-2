@@ -1,6 +1,6 @@
 ---
 DIP: 2
-title: Reduce Market Maker incentives
+title: Reducing liquidity provider rewards threshold from 5% to 1%
 status: WIP
 author: Jacob Goh (@jteamdc)
 short description: Reducing market maker threshold from 5% to 1%
@@ -10,7 +10,7 @@ created: 2021-10-07
 ---
 
 ## Simple Summary
-This DIP is to reduce the threshold for receiving market maker tokens reduced from 5% of maker volume to 1%. 
+The purpose of this DIP is to reduce the the liquidity provider rewards threshold for market makers from 5% to 1% so that smaller and medium-sized market makers can be included as well.
 
 ## Abstract
 
