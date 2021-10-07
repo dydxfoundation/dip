@@ -14,19 +14,27 @@ This DIP is to reduce the threshold for receiving market maker tokens reduced fr
 
 ## Abstract
 
-A Snapshot vote was carried out to reduce the volume threshold % for market makers to qualify to receive Liquidity Provider. Rewards has concluded with a record 764 unique voters & 55M DYDX staked. 
+In reference to a thread on market maker incentives, Su Zhu from Three Arrows Capital submitted a Snapshot vote to reduce the volume threshold % for market makers to qualify to receive Liquidity Provider Rewards. 
 
-The majority of the community (399 voters & 86% of DYDX) supports reducing the threshold to 1%.
+The Snapshot vote concluded with a record 764 unique voters and 55M dYdX in agreement. The majority of the community (399 voters & 86% of dYdX) supported to reduce the threshold to 1%.
+
+
 
 **Relevant Links**
 
 
-* Reference to a thread on market maker incentives :[https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/1)
+* Reference to a thread on market maker incentives :[https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/)
 * Snapshot vote for dYdX holders from Su Zhu at Three Arrows Capital: [https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN)
+* Maker Volume Distibution: [https://metabase.dydx.exchange/public/dashboard/5fa0ea31-27f7-4cd2-8bb0-bc24473ccaa3](https://metabase.dydx.exchange/public/dashboard/5fa0ea31-27f7-4cd2-8bb0-bc24473ccaa3)
+
 
 ## Motivation
 
-Having the threshold at 5% is  worse for liquidity to not allow more small and medium-sized market makers to compete with the larger ones.
+Having a high threshold of 5% is worse for liquidity on dYdX. It excludes smaller and medium-sized market makers from competing with larger market makers. 
+
+More than 6 market makers would be included in epoch 0/1 if the threshold had been reduced to 1%.
+
+
 
 
 ## Rationale
