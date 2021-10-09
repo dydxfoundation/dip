@@ -1,7 +1,7 @@
 ---
 DIP: 2
 title: Reducing liquidity provider rewards threshold from 5% to 1%
-status: WIP
+status: Implemented
 author: Jacob Goh (@jteamdc)
 short description: Reducing market maker threshold from 5% to 1%
 discussions: https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/
@@ -23,7 +23,7 @@ The Snapshot vote concluded with a record 764 unique voters and 55M DYDX in agre
 **Relevant Links**
 
 
-* Reference to a thread on market maker incentives :[https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/)
+* Reference to a thread on market maker incentives:[https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/](https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/)
 * Snapshot vote for DYDX holders from Su Zhu at Three Arrows Capital: [https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN](https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN)
 * Maker Volume Distibution: [https://metabase.dydx.exchange/public/dashboard/5fa0ea31-27f7-4cd2-8bb0-bc24473ccaa3](https://metabase.dydx.exchange/public/dashboard/5fa0ea31-27f7-4cd2-8bb0-bc24473ccaa3)
 
