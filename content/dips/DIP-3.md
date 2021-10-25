@@ -79,15 +79,3 @@ A [full implementation](https://github.com/dydxfoundation/governance-contracts/t
 **Copyright**
 
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
