@@ -2,7 +2,7 @@
 DIP: 4
 title: Safety Module Staker Reimbursement and Compensation
 status: Proposed
-author: TODO
+author: Jacob Goh (@jteamdc)
 shortDescription: Reimburse and compensate the early Safety Module stakers whose funds were stuck.
 discussions: https://commonwealth.im/dydx/proposal/discussion/1743-safety-staking-pool-on-pause
 created: 2021-10-14
