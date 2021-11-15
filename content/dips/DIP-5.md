@@ -1,5 +1,5 @@
 ---
-DIP: <to be assigned>
+DIP: 5
 title: Upgrade the StarkProxy smart contract
 status: WIP
 author: Yuriy Myronovych (@YuriyWintermute)
