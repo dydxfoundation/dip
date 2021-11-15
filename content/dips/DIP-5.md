@@ -21,6 +21,8 @@ On October 27, 2021 09:37:37 AM +UTC, we (Wintermute) borrowed 50 million USDC (
 The 50M USDC are safely held by the dYdX L2 exchange smart contract and can be reclaimed by the StarkProxy contract. However, to reclaim the funds, the StarkProxy contract must call “depositCancel” and “depositReclaim” on the L2 exchange smart contract. 
 Upgrading these smart contracts would allow us to recover the 50M USDC and ensure that other market makers can safely make use of the Liquidity Staking Pool.
 
+Following a forum DRC [thread](https://forums.dydx.community/proposal/discussion/2437-drc-smart-contract-upgrade-for-market-maker-borrowers-from-liquidity-staking-pool/), Wintermute launched a 5-day poll on Snapshot regarding the question of Stark Proxy upgrade. The results of the poll are available [here](https://snapshot.org/#/dydxgov.eth/proposal/0x3d62d5b77b2b9bd3ab1c42c296cc36ccf89f77bea22815081e785d5d28d32366). The Snapshot vote has concluded with 5.3M DYDX (99.92%) from 474 voters indicating consensus in favor of the DRC. 
+
 ## Specification
 
 When market makers borrow funds from the Liquidity Module staking pool they must do so via a StarkProxy smart contract which manages the funds and limits how they may be used. The StarkProxy borrows funds from the pool using a “borrow” call and then deposits those to the exchange using “depositToExchange” providing multiple parameters in transaction data describing which account should be credited. This deposit transaction transfers funds to the dYdX L2 exchange smart contract ([here](https://etherscan.io/address/0xd54f502e184b6b739d7d27a6410a67dc462d69c8)) and, if a deposit is valid, it is submitted and confirmed on L2. If the deposit parameters are misspecified by the caller, it may not be possible to credit the deposit. In such a case, as long as the “starkKey” was correctly specified in the deposit, the depositor can reclaim their funds using the “depositCancel” and “depositReclaim” functions. This process is described [here](https://docs.starkware.co/starkex-v3/starkex-deep-dive/smart-contracts-1/public-interactions#deposit).
@@ -29,7 +31,14 @@ Currently there is one such invalid deposit of 50M USDC which must be canceled i
   
 **Implementation**
 
-A [full implementation](https://github.com/dydxfoundation/governance-contracts/blob/master/contracts/stark-proxy/README.md) is open-sourced in the dYdX Foundation governance contracts repository.
+Upgraded Stark Proxy implementation [Stark Proxy V2](https://github.com/dydxfoundation/governance-contracts/blob/master/contracts/stark-proxy/README.md) is open-sourced in the dYdX Foundation governance contracts repository.
+
+
+**Test Cases**
+
+Test cases for Stark Proxy have been extended to cover new V2 functions. It is open-sourced in the dYdX Foundation [Stark Proxy tests](https://github.com/dydxfoundation/governance-contracts/tree/master/test/stark-proxy) folder. The deposit and cancelation process was thoroughly tested in both test and mainnet fork environments.
+
+[Detailed instructions](https://github.com/dydxfoundation/governance-contracts/blob/master/contracts/stark-proxy/README.md) are provided on GitHub to allow anybody to run the same tests.
 
 **Copyright**
 
