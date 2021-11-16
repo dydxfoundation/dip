@@ -3,7 +3,7 @@ DIP: <to be assigned>
 title: <DIP title>
 status: WIP
 author: FirstName LastName (@GitHubUsername)
-short description: <Short description of DIP>
+shortDescription: <Short description of DIP>
 discussions: <Discord Channel or Github issue>
 created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
 updated (*optional): <date created on, in ISO 8601 (yyyy-mm-dd) format> or N/A
