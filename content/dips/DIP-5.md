@@ -1,7 +1,7 @@
 ---
 DIP: 5
 title: Upgrade the StarkProxy smart contract
-status: WIP
+status: Proposed
 author: Yuriy Myronovych (@YuriyWintermute)
 short description: Upgrade StarkProxy smart contracts to support deposit cancellation and recovery.
 discussions: https://forums.dydx.community/proposal/discussion/2437-drc-smart-contract-upgrade-for-market-maker-borrowers-from-liquidity-staking-pool/
