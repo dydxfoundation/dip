@@ -23,6 +23,7 @@ https://forums.dydx.community/snapshot/dydxgov.eth/0xe77513bfec9f55b1d620d973af1
 
 **Relevant Links**
 DGP website: https://dydxgrants.com/
+
 DRC discussion: https://forums.dydx.community/proposal/discussion/2511-drc-dydx-grants-program/
 
 ## Motivation
