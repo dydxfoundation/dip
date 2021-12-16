@@ -22,6 +22,7 @@ The snapshot vote concluded with 314 voters and 18M DYDX in agreement (98.9%). T
 https://forums.dydx.community/snapshot/dydxgov.eth/0xe77513bfec9f55b1d620d973af1c4da1266ceffd333cbb120bc54a9359d27a40
 
 **Relevant Links**
+
 DGP website: https://dydxgrants.com/
 
 DRC discussion: https://forums.dydx.community/proposal/discussion/2511-drc-dydx-grants-program/
