@@ -5,7 +5,7 @@ status: Proposed
 author: Reverie
 shortDescription: Launch a Grants Program with $6.25m from the Community Treasury
 discussions: https://forums.dydx.community/proposal/discussion/2511-drc-dydx-grants-program/
-created: 2021-12-15
+created: 2021-12-20
 ---
 
 ## Simple Summary
@@ -44,6 +44,14 @@ the dYdX product or core development, Grantees will have the opportunity to impa
 The treasury will move $6.25m worth of DYDX to the Committee Member multi-sig.
 
 Funds will be used to reward Grantees, pay the Lead and cover additional program costs. Grantees will be subject to milestones that can determine compensation structure, with standard payouts being 25% upfront and the remainder upon completion.
+
+**DYDX Amount**
+The amount of DYDX to be moved from the community treasury to the DGP Multisig will be determined using a 24h vwap of the trades executed on the most liquid exchange, namely Binance.com. Given it makes up roughly 30% of the 24h volume, the DYDX/USDT Binance market data will be used to derive a market price. The data will be pulled from https://data.binance.vision/?prefix=data/spot/daily/trades/DYDXUSDT/. The previous day's trades will be used to capture a full 24h window so as to avoid timing constraints. As such, we will use the following data set: https://data.binance.vision/data/spot/daily/trades/DYDXUSDT/DYDXUSDT-trades-2021-12-19.zip.
+
+This formula will be used to calculate the price: Σ(Price * Volume) / Σ(Volume).
+From the data above, we find: $19,474,341.64 / 2,412,099.90 = $8.07.
+
+The DYDX Amount to be transferred will be $6,250,000 / $8.07 = 775000.00 (rounded up to the nearest thousand for simplicity).
 
 ## Rationale
 
