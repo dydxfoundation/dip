@@ -5,7 +5,6 @@ status: Proposed
 author: Reverie
 shortDescription: Launch a Grants Program with $6.25m from the Community Treasury
 discussions: https://forums.dydx.community/proposal/discussion/2511-drc-dydx-grants-program/
-
 created: 2021-12-20
 ---
 
