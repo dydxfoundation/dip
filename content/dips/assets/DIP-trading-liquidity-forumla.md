@@ -1,18 +1,13 @@
 
 ---
 DIP: Dip-trading-liquidity-formula
-
 title: Update Trading & Liquidity Provider rewards formulas.
-
 status: Proposed
-
 author: Andrei Sandu (@snow90a)
-
 shortDescription: Update Trading & Liquidity Provider rewards formulas to include holding of stkDYDX.
-
 discussions: https://commonwealth.im/dydx/proposal/discussion/2940-drc-update-trading-liquidity-provider-rewards-formulas-to-include-holding-of-stkdydx
-
 created: 2021-12-21
+
 ---
 
 This is the template for DIPs.
