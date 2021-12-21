@@ -1,5 +1,5 @@
 
-
+---
 DIP: Dip-trading-liquidity-formula
 
 title: Update Trading & Liquidity Provider rewards formulas.
@@ -13,7 +13,7 @@ shortDescription: Update Trading & Liquidity Provider rewards formulas to includ
 discussions: https://commonwealth.im/dydx/proposal/discussion/2940-drc-update-trading-liquidity-provider-rewards-formulas-to-include-holding-of-stkdydx
 
 created: 2021-12-21
-
+---
 
 This is the template for DIPs.
 
@@ -97,6 +97,7 @@ Safety Module Blogpost: [<https://dydx.foundation/blog/en/safety-staking>]
 \## Implementation
 
 DYDX smart contracts do not directly control the liquidity mining formulas. As such, once DYDX holders provide feedback on this DRC, a DRC Snapshot will be created. If approved, the dYdX Foundation will request that dYdX Trading Inc. implement the changes in time for Epoch 5.
+
 
 \## Copyright
 
