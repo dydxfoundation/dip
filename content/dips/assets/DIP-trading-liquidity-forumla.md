@@ -1,4 +1,4 @@
-﻿\---
+
 
 DIP: Dip-trading-liquidity-formula
 
@@ -14,7 +14,6 @@ discussions: https://commonwealth.im/dydx/proposal/discussion/2940-drc-update-tr
 
 created: 2021-12-21
 
-\---
 
 This is the template for DIPs.
 
