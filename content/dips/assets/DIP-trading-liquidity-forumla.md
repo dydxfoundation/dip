@@ -1,26 +1,26 @@
 
 ---
-DIP: Dip-trading-liquidity-formula
-title: Update Trading & Liquidity Provider rewards formulas.
-status: Proposed
-author: Andrei Sandu (@snow90a)
-shortDescription: Update Trading & Liquidity Provider rewards formulas to include holding of stkDYDX.
-discussions: https://commonwealth.im/dydx/proposal/discussion/2940-drc-update-trading-liquidity-provider-rewards-formulas-to-include-holding-of-stkdydx
-created: 2021-12-21
+DIP: Dip-trading-liquidity-formula 
+
+Title: Update Trading & Liquidity Provider rewards formulas.
+
+Status: Proposed
+
+Author: Andrei Sandu (@snow90a)
+
+ShortDescription: Update Trading & Liquidity Provider rewards formulas to include holding of stkDYDX.
+
+Discussions: https://commonwealth.im/dydx/proposal/discussion/2940-drc-update-trading-liquidity-provider-rewards-formulas-to-include-holding-of-stkdydx
+
+Created: 2021-12-21
 
 ---
 
-This is the template for DIPs.
-
-Note that an DIP number will be assigned by an editor. When opening a pull request to submit your DIP, please use an abbreviated title in the filename, `DIP-draft\_title\_abbrev.md`.
-
-The title should be 44 characters or less.
-
-\## Simple Summary
+## Simple Summary
 
 Update Trading & Liquidity Provider rewards formulas to include holding of stkDYDX. This will better incentivize utility of the DYDX token, usage of the dYdX ecosystem, and to protect the protocol through increased adoption of the Safety Staking Pool.
 
-\## Abstract
+## Abstract
 
 **Adjust the Individual Trader Score formula within Trading Rewards to:** 
 
@@ -61,7 +61,7 @@ Where the existing [Liquidity Provider Rewards formula](https://docs.dydx.commun
 
 
 
-\## Motivation
+## Motivation
 
 It is quite clear that the existing liquidity mining programs have been extremely successful in incentivizing onboarding and usage of the dYdX protocol since its inception. However, the liquidity mining programs do not currently incentivize users to remain participants in the dYdX ecosystem. 
 
@@ -74,7 +74,7 @@ The Liquidity Provider rewards program has been extremely successful in both onb
 The adjustment to the formula, therefore, may slightly reduce standing liquidity and uptime in favor of incentivizing market makers to become more meaningful participants in the dYdX ecosystem. To lessen that potential impact, we include an exponent of 1/2 for the *stkDYDX* variable. 
 
 
-\## Relevant Links
+## Relevant Links
 
 Community discussion thread: [<https://commonwealth.im/dydx/proposal/discussion/2940-drc-update-trading-liquidity-provider-rewards-formulas-to-include-holding-of-stkdydx>]
 
@@ -89,11 +89,11 @@ Safety Module Blogpost: [<https://dydx.foundation/blog/en/safety-staking>]
 
 
 
-\## Implementation
+## Implementation
 
 DYDX smart contracts do not directly control the liquidity mining formulas. As such, once DYDX holders provide feedback on this DRC, a DRC Snapshot will be created. If approved, the dYdX Foundation will request that dYdX Trading Inc. implement the changes in time for Epoch 5.
 
 
-\## Copyright
+## Copyright
 
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
