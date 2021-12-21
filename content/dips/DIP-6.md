@@ -6,7 +6,8 @@ author: Reverie
 shortDescription: Launch a Grants Program with $6.25m from the Community Treasury
 discussions: https://forums.dydx.community/proposal/discussion/2511-drc-dydx-grants-program/
 created: 2021-12-20
----
+
+
 
 ## Simple Summary
 
@@ -54,6 +55,7 @@ This formula will be used to calculate the price: Σ(Price * Volume) / Σ(Volume
 From the data above, we find: $19,474,341.64 / 2,412,099.90 = $8.07.
 
 The DYDX Amount to be transferred will be $6,250,000 / $8.07 = **775000.00** (rounded up to the nearest thousand for simplicity).
+
 
 ## Rationale
 
