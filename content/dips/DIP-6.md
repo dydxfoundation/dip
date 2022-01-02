@@ -8,7 +8,6 @@ discussions: https://forums.dydx.community/proposal/discussion/2511-drc-dydx-gra
 created: 2022-01-02
 
 
-
 ## Simple Summary
 
 Launch the dYdX Grants Program with $6.25m moved from the Community Treasury to the Grants Multi-sig.
