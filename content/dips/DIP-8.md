@@ -20,6 +20,14 @@ In reference to a thread on market maker incentives, Denis Tenchurin submitted a
 
 The Snapshot vote concluded with a record 306 unique voters and 27M DYDX in agreement. The majority of the community (195 voters & 99.8% of DYDX) supported to reduce the threshold to 0.25%.
 
+## Relevant Links:
+
+Snapshot vote for DYDX holders: https://snapshot.org/#/dydxgov.eth/proposal/0x785066561be1e5d170eb28960da5ef2643ee0d0c3d590fd797c028512cc6be43
+
+Maker Volume Distribution: https://metabase.dydx.exchange/public/dashboard/5fa0ea31-27f7-4cd2-8bb0-bc24473ccaa3
+
+Discussions: https://forums.dydx.community/discussion/3683-drc-reduce-the-threshold-for-receiving-liquidity-provider-rewards
+
 ## Motivation
 
 Having a high threshold of 1% is worse for liquidity on dYdX. It excludes smaller and small-sized market makers from competing with larger market makers.
