@@ -1,7 +1,7 @@
 ---
 DIP: 9
 title: Guernsey Purpose Trust for the dYdX Grants Program (DGP)
-status: WIP
+status: Approved
 author: Reverie (@hi_reverie)
 shortDescription: Implement a Guernsey Purpose Trust for the dYdX Grants Program (DGP)
 discussions: https://forums.dydx.community/discussion/4049-drc-implement-a-guernsey-purpose-trust-for-the-dydx-grants-program-dgp
