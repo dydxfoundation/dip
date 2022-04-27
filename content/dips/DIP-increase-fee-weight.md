@@ -1,11 +1,11 @@
 ---
 DIP: <to be assigned>
 title: dYdX Trader Reward Formula Fee Parameter Update
-status: WIP
-author: Max Holloway of Xenophon Labs (twitter @max_holloway)
+status: Approved
+author: Max Holloway of Xenophon Labs (twitter @XenophonLabs)
 shortDescription: Increase Fee Weight in dYdX Trader Reward Formula
 discussions: https://forums.dydx.community/discussion/4190-discussion-dydx-trader-rewards-mechanism-review
-created: 2022-04-04
+created: 2022-04-27
 ---
 
 ## Simple Summary
