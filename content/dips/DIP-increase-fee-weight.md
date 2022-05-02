@@ -1,5 +1,5 @@
 ---
-DIP: <to be assigned>
+DIP: 10
 title: dYdX Trader Reward Formula Fee Parameter Update
 status: Approved
 author: Max Holloway of Xenophon Labs (twitter @XenophonLabs)
