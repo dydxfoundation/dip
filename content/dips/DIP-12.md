@@ -1,6 +1,6 @@
 ---
 DIP: 12
-title: New Assets to the Starkware Priority Timelock Executor (Epoch 11)
+title: 15 New Assets to the Starkware Priority Timelock Executor
 status: Proposed
 author: Reverie
 shortDescription: Add 15 new assets to the Starkware contracts in Epoch 11
