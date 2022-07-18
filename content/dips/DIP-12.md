@@ -1,5 +1,5 @@
 ---
-DIP: 13
+DIP: 12
 title: dYdX Grants Program v1.5
 status: Proposed
 author: Reverie
