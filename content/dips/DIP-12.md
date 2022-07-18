@@ -34,8 +34,6 @@ Following on the success of dYdX Grants Program v1, the goal is to leverage the 
 The program will focus on International growth to expand brand awarness and user adoption, and work on different research initiatives to tackle upcoming challenges with the dYdX Chain.
 Additional grants will be funded where applicable, always with the aim of contributing towards dYdX growth.
 
-Changing the Trustees will improve efficiency of the Trustees as a collective Committee supporting the Grants program.
-
 As part of a regular changing of Trustees based on contributions and availability, Su Zhu and Zhuoxun Yin will be removed as Trustees of the dYdX Grants Trust.
 To replace the two Trustees removed, Lily Liu and Alexios Valonasis will be appointed as the new Trustees. Lily has significant experience in the crypto space and Alexios has been an active community member with experience working alongside the dYdX Grants team.
 
