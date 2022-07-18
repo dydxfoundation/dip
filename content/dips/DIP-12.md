@@ -1,83 +1,75 @@
 ---
 DIP: 12
-title: 15 New Assets to the Starkware Priority Timelock Executor
+title: dYdX Grants Program v1.5
 status: Proposed
 author: Reverie
-shortDescription: Add 15 new assets to the Starkware contracts in Epoch 11
-discussions: https://commonwealth.im/dydx/discussion/5215-new-assets-for-epoch-11
-created: 2022-06-29
+shortDescription: Launch dYdX Grants Program v1.5 with $5.5M DYDX and Two new Trusteees
+discussions: https://commonwealth.im/dydx/discussion/5808-dydx-grants-program-v15
+created: 2022-07-13
 ---
 
 ## Simple Summary
 
-Add 15 new assets to the StarkEx contract configuration for eventual listing on the dYdX platform.
+Launch v1.5 of the dYdX Grants Program with $5.5m moved from the Community Treasury to the Grants Multi-sig. Additionally, remove two existing Trustees and appoint two new Trustees to the dYdX Grants Trust.
 
 ## Abstract
 
-Reverie is proposing to add the following new assets to the StarkEx contract to ready the protocol for listing and signal community belief that dYdX Trading should prioritize these new markets:
+Reverie is proposing launching a new version of the dYdX Grants Program, leveraging the lessons learned from v1, to help dYdX grow users and support the migration to the new dYdX Chain.
+Reverie will continue to act as lead for the program, and maintain its position as Enforcer of the dYdX Grants Trust.
+Two existing Trustees of the dYdX Grants Trust, Su Zhu and Zhuoxun Yin, will be removed as Trustees.
+Lily Liu and Alexios Valonasis will be appointed as the new Trustees for the dYdX Grants Trust.
 
-ApeCoin (APE)
-
-Stepn (GMT)
-
-Fantom (FTM)
-
-Axie Infinity (AXS)
-
-Optimism (OP)
-
-Waves (WAVES)
-
-Gala (GALA)
-
-The Sandbox (SAND)
-
-Decentraland (MANA)
-
-Shiba Inu (1000SHIB)
-
-Theta Network (THETA)
-
-Reserve Rights (RSR)
-
-Zilliqa (ZIL)
-
-VeChain (VET)
-
-Ethereum Name Service (ENS)
-
-These assets have been reviewed by the New Asset Listing group, and received positive feedback from market makers and community members. Please review the assets using the Chaos Labs tool here: https://dydx.chaoslabs.xyz/asset-listing
-
-The snapshot vote concluded with 282 voters and 13M DYDX in agreement (99%). The vote results have shown significant support for adding these assets.
-https://commonwealth.im/dydx/snapshot/dydxgov.eth/0x16c1fa1ad9ae00241c8f451313d3b03a17c670ef5bf339e92e508e660780400a
+The snapshot vote concluded with 314 voters and 18M DYDX in agreement (98.9%). The vote results have shown significant support for the program.
+https://forums.dydx.community/snapshot/dydxgov.eth/0xe77513bfec9f55b1d620d973af1c4da1266ceffd333cbb120bc54a9359d27a40
 
 **Relevant Links**
 
-Asset Listing Tool: https://dydx.chaoslabs.xyz/asset-listing
+DGP website: https://dydxgrants.com/
 
-DRC discussion: https://commonwealth.im/dydx/discussion/5215-new-assets-for-epoch-11
-
-New Asset Listing Group Discussion: https://commonwealth.im/dydx/discussion/4993-new-asset-listing-group
+DRC discussion: https://commonwealth.im/dydx/discussion/5808-dydx-grants-program-v15
 
 ## Motivation
 
-Listing new assets is a well-known growth strategy used by exchanges to attract new users and increase trading volumes. We believe dYdX will need to increase its listing frequency to remain competitive. By adding these assets to the StarkEx contract, we hope to signal and improve the likelihood that dYdX Trading will add these new markets to the platform.
+Following on the success of dYdX Grants Program v1, the goal is to leverage the lessons learned to build a more effective, focused grants program to contribute towards protocol growth.
+The program will focus on International growth to expand brand awarness and user adoption, and work on different research initiatives to tackle upcoming challenges with the dYdX Chain.
+Additional grants will be funded where applicable, always with the aim of contributing towards dYdX growth.
 
-Adding these new markets should improve overall trading volumes and hopefully attract more traders.
+As part of a regular changing of Trustees based on contributions and availability, Su Zhu and Zhuoxun Yin will be removed as Trustees of the dYdX Grants Trust.
+To replace the two Trustees removed, Lily Liu and Alexios Valonasis will be appointed as the new Trustees. Lily has significant experience in the crypto space and Alexios has been an active community member with experience working alongside the dYdX Grants team.
 
 ## Specification
 
-With assistance from dYdX developers and the Starkware team, Reverie has generated the data to add the assets on the backend to enable listing them on the platform.
+**Program Design**
 
-### Implementation
+* $5.5M funding in DYDX
+* 6 months timeframe ahead of V4 launch
+* Reverie as Full Time Lead
+* 8 Trustees
 
-Adding new assets to the StarkEx contract is done by calling the [executeAssetConfigurationChanges](https://github.com/dydxfoundation/governance-contracts/blob/336cb686b0c50693639a0fdb639d0b8f3b0670b3/contracts/misc/StarkExHelperGovernor.sol#L40). This functions requires a list of both assetIds and asset configuration hashes, both of which were generated by Starkware using internal helper functions. More information on assetIds and configHashes can be found [here](https://docs.starkware.co/starkex-docs-v2-deprecated/starkex-deep-dive/smart-contracts-1/on-chain-configuration-perpetual-trading#configuration-per-synthetic-assetid).
+The treasury will move $5.5m worth of DYDX to the dYdX Grants Trust multi-sig managed by the Trustees.
 
-The proposal will generate a transaction using the Starkware Priority Executor (0xa306989BA6BcacdECCf3C0614FfF2B8C668e3CaE) passing the configuration data in the executeAssetConfigurationChanges function through the StarkExHelperGovernor contract (0x0db9b3F7Dd83e29C9bece8E5e1089bA4369E694a).
+Funds will be used to reward Grantees, pay the Lead and cover additional program costs. Grantees will be subject to milestones that can determine compensation structure, with standard payouts being 25% upfront and the remainder upon completion.
 
-### Testing
+**DYDX Amount**
 
-Testing can be done against a mainnet fork using the new-markets-proposal script in the test folder.
+The amount of DYDX to be moved from the community treasury to the DGP Multisig will be determined using a 24h vwap of the trades executed on the most liquid exchange, namely Binance.com. Given it makes up roughly 20% of the 24h volume, the DYDX/USDT Binance market data will be used to derive a market price. The data will be pulled from https://data.binance.vision/?prefix=data/spot/daily/trades/DYDXUSDT/. The previous day's trades will be used to capture a full 24h window so as to avoid timing constraints. The following data file is used: https://data.binance.vision/data/spot/daily/trades/DYDXUSDT/DYDXUSDT-trades-2022-07-17.zip
+
+This formula will be used to calculate the price: Σ(Price * Volume) / Σ(Volume).
+
+From the data, we find: $21,982,398.76 / 10,334,499.44 = $2.13.
+
+The DYDX Amount to be transferred will be $5,500,000 / $2.13 = **2,582,000** (rounded up to the nearest thousand for simplicity).
+
+**Trustee Changes**
+
+Below is a formal letter drafted by the Grants team counsel outlining the actions enacted on behalf of DYDX tokenholders if the proposal passes with the regards to the changes made of Trustees.
+
+https://docs.google.com/document/d/1XEjuFBkxDeaSM4xG6OqOaI88LwxSLz4ZP6XJzwnZHpA/edit?usp=sharing
+
+## Rationale
+
+The community has addressed certain concerns and issues with a v1.5 of the Grants program in the DRC, but overall consensus has been in strong support of launching. The program will work to grow the dYdX user base and trading volume through various initiatives while also helping the community tackle important questions and challenges ahead of the V4 launch.
+
 
 ## Copyright
 
