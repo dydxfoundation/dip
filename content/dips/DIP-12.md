@@ -52,13 +52,13 @@ Funds will be used to reward Grantees, pay the Lead and cover additional program
 
 **DYDX Amount**
 
-The amount of DYDX to be moved from the community treasury to the DGP Multisig will be determined using a 24h vwap of the trades executed on the most liquid exchange, namely Binance.com. Given it makes up roughly 20% of the 24h volume, the DYDX/USDT Binance market data will be used to derive a market price. The data will be pulled from https://data.binance.vision/?prefix=data/spot/daily/trades/DYDXUSDT/. The previous day's trades will be used to capture a full 24h window so as to avoid timing constraints. The following data file is used: https://data.binance.vision/data/spot/daily/trades/DYDXUSDT/DYDXUSDT-trades-2022-07-15.zip
+The amount of DYDX to be moved from the community treasury to the DGP Multisig will be determined using a 24h vwap of the trades executed on the most liquid exchange, namely Binance.com. Given it makes up roughly 20% of the 24h volume, the DYDX/USDT Binance market data will be used to derive a market price. The data will be pulled from https://data.binance.vision/?prefix=data/spot/daily/trades/DYDXUSDT/. The previous day's trades will be used to capture a full 24h window so as to avoid timing constraints. The following data file is used: https://data.binance.vision/data/spot/daily/trades/DYDXUSDT/DYDXUSDT-trades-2022-07-17.zip
 
 This formula will be used to calculate the price: Σ(Price * Volume) / Σ(Volume).
 
-From the data, we find: $30,673,037.51 / 14,600,009.13 = $2.10.
+From the data, we find: $21,982,398.76 / 10,334,499.44 = $2.13.
 
-The DYDX Amount to be transferred will be $5,500,000 / $2.10 = **2,619,000** (rounded up to the nearest thousand for simplicity).
+The DYDX Amount to be transferred will be $5,500,000 / $2.13 = **2,582,000** (rounded up to the nearest thousand for simplicity).
 
 **Trustee Changes**
 
