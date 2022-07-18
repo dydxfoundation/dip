@@ -19,8 +19,8 @@ Reverie will continue to act as lead for the program, and maintain its position 
 Two existing Trustees of the dYdX Grants Trust, Su Zhu and Zhuoxun Yin, will be removed as Trustees.
 Lily Liu and Alexios Valonasis will be appointed as the new Trustees for the dYdX Grants Trust.
 
-The snapshot vote concluded with 314 voters and 18M DYDX in agreement (98.9%). The vote results have shown significant support for the program.
-https://forums.dydx.community/snapshot/dydxgov.eth/0xe77513bfec9f55b1d620d973af1c4da1266ceffd333cbb120bc54a9359d27a40
+The snapshot vote concluded with 412 voters and 5.7M DYDX in agreement (99.76%). The vote results have shown significant support for the program.
+https://forums.dydx.community/snapshot/dydxgov.eth/0x65a5a0c35c41994ecee0d472a4e93d9aa3392c790153ed1c4f2fd83133c73b68
 
 **Relevant Links**
 
