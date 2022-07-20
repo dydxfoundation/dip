@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.ADMIN_PERSONAL_ACCESS_TOKEN }}
 
       - name: Rename dip to upper case
         run: cd content/dips && bash toUpper.sh || true && cd ../..
