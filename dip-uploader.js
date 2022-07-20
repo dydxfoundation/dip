@@ -17,10 +17,10 @@ const rawJsonDips = JSON.parse(fs.readFileSync('./content/ipfs-dips/all-dips.jso
 const jsonDips = Object.values(rawJsonDips);
 
 async function main() {
-  const dipIds = Object.keys(jsonDips).sort(((a, b) => a.split('-')[1] - b.split('-')[1]));
+  dipNumbers = jsonDips.map((jsonDip) => jsonDip.DIP - 1).sort((a, b) => a - b)
 
-  for (let x = 0; x < dipIds.length; x++) {
-    const id = dipIds[x];
+  for (let x = 0; x < dipNumbers.length; x++) {
+    const id = dipNumbers[x].toString();
 
     delete Object.assign(jsonDips[id], { 'description': jsonDips[id]['content'] })['content'];
     
@@ -54,13 +54,14 @@ async function main() {
         }`
       jsonDips[id].ipfsHash = hash
       jsonDips[id].encodeIpfsHash = encodedHash
+      const dipId = jsonDips[id].DIP - 1
       console.log(`${jsonDips[id].title}: ✅ Success!`)
       console.log(` IPFS hash: ${hash}`)
       console.log(` Encoded IPFS hash (for proposal creation): ${encodedHash}`)
       console.log(` See the file here: https://gateway.pinata.cloud/ipfs/${hash}`)
       fs.writeFileSync(
         `./content/ipfs-dips/${jsonDips[id].basename}-Ipfs-hashes.json`,
-        JSON.stringify({ dip: id, hash, encodedHash }, null, 2)
+        JSON.stringify({ dip: dipId.toString(), hash, encodedHash }, null, 2)
       )
       fs.writeFileSync(
         `./content/ipfs-dips/all-dips.json`,
