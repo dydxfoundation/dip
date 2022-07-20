@@ -10,7 +10,7 @@ created: 2022-07-13
 
 ## Simple Summary
 
-Launch v1.5 of the dYdX Grants Program with $5.5m moved from the Community Treasury to the Grants Multi-sig. Also remove two existing Trustees and appoint two new Trustees to the dYdX Grants Trust.
+Launch v1.5 of the dYdX Grants Program with $5.5m moved from the Community Treasury to the Grants Multi-sig. Additionally, remove two existing Trustees and appoint two new Trustees to the dYdX Grants Trust.
 
 ## Abstract
 
