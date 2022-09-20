@@ -1,5 +1,5 @@
 ---
-DIP: 14
+DIP: 15
 title: A Further Step Towards More Equitable LP Rewards
 status: Approved
 author: SLN Capital (@SLNcapital)
