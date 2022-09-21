@@ -62,7 +62,7 @@ The Community had expressed overwhelming support for the winding down of the Liq
 
 ## Implementation
 
-[Insert link to GitHub before PR merge]
+A full implementation is open-sourced on the dYdX Foundation Github: https://github.com/dydxfoundation/governance-contracts/pull/33
 
 ## Copyright
 
