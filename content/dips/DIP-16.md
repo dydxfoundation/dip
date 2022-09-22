@@ -1,5 +1,5 @@
 ---
-DIP: 15
+DIP: 16
 title: Reduce Trading Rewards by 25%
 status: Proposed
 author: Callen Wintermute (@callenwm)
