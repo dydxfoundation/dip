@@ -84,6 +84,20 @@
     "encodeIpfsHash": "0x32db80af31713b3a4eda8ce6a30cf125dd8361d6f3df437c6667c98432757795"
   },
   {
+    "DIP": 15,
+    "title": "A Further Step Towards More Equitable LP Rewards",
+    "status": "Approved",
+    "author": "SLN Capital (@SLNcapital)",
+    "shortDescription": "Improvement to LP rewards",
+    "discussions": "https://forums.dydx.community/discussion/6322-discussion-revisions-to-improve-the-lp-reward-formula",
+    "created": "2022-09-20T00:00:00.000Z",
+    "preview": "## Simple Summary\n\nImprovement to LP rewards\n\n## Abstract\n\nWe …",
+    "basename": "DIP-15",
+    "description": "\n\n## Simple Summary\n\nImprovement to LP rewards\n\n## Abstract\n\nWe propose:\n\n- Changing the weights for non BTC/ETH markets to `v = 0.6, d = 0.35, and s = 0.05`\n- For BTC/ETH, `v = 0.8, d = 0.15, s = 0.05` \n- Reducing the amount paid for BTC/ETH to 10% / 10% rather than 20% / 20%, thus giving 80% to the other markets\n\nThe main direction then is to increase weight towards the Volume term that was added last time by Wintermute’s proposal, as well as acknowledge the maturity of BTC/ETH markets and the lower need there to incentivize book-quoting.\n\nOver time as other markets mature we can move further on towards even more simple volume weighting.\n\nOn August 14, there was a Snapshot vote on this which concluded with 505 voters and 22.7M DYDX in agreement (99.95%)- to revise the LP rewards formula and rewards allocation.\n\nRelevant Links\n\nDRC discussion: https://forums.dydx.community/discussion/6322-discussion-revisions-to-improve-the-lp-reward-formula\n\nSnapshot: https://snapshot.org/#/dydxgov.eth/proposal/0x4baa732bacdb8e05efb482535c213c682d769dcbd2a6ef117fa070404d258dec\n\n## Motivation\n\nMoving towards more sustainable LP rewards that reward liquidity providing where it is actually needed, and increase importance of volume actually done versus other metrics that are indermediary.\n\n## Specification\n\nWeights for non BTC/ETH markets to `v = 0.6, d = 0.35, and s = 0.05`\n\nWeights for BTC/ETH markets to `v= 0.8, d = 0.15, s = 0.05`\n\nReducing the amount paid for BTC/ETH to 10% / 10% rather than 20% / 20%, thus giving 80% to the other markets\n\nUpdates to the LP rewards formula and rewards allocation do not require any smart contract changes. Revisions to the LP rewards formula and rewards allocation will be implemented by dYdX Trading after the start of Epoch 15 (September 27, 2022, at 3 PM UTC). All changes will take effect in Epoch 15.\n\n## Rationale\n\nMaking a further step towards incentivizing volume, and focusing on growth markets for rewards rather than developed ones.\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).\n",
+    "ipfsHash": "QmYH3MFPMqpC83xRkw6K3fUnqp6p8VzwJqFmG6VSf9Fyhj",
+    "encodeIpfsHash": "0x93a825455d3375f8abc16695032060089262a0ffe79078c5df464964d10da2ca"
+  },
+  {
     "DIP": 2,
     "title": "Reducing liquidity provider rewards threshold from 5% to 1%",
     "status": "Implemented",
