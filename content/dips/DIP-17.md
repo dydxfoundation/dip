@@ -10,13 +10,13 @@ created: 2022-11-02
 
 ## Simple Summary
 
-The dYdX Safety Staking Module, which allowed users to stake DYDX that would then be used as an insurance backstop in the case of a protocol shortfall event, will be shut down. The remaining rewards allocated to the Safety Staking Module will not be distributed, but accrue in the Community Treasury, which in turn can be directed by the community.
+The dYdX Safety Staking Module, which allowed users to stake DYDX that would then be used as an insurance backstop in the case of a protocol shortfall event, will be shut down. The remaining rewards allocated to the Safety Staking Module will not be distributed, but accrue in the Rewards Treasury, which in turn can be directed by the community.
 
 ## Abstract
 
 Xenophon Labs proposed winding down the Safety Staking Module due to its impracticality as an insurance fund and inefficient allocation of DYDX token.
 
-Each epoch, the 383,562 DYDX currently allocated to DYDX stakers will instead accummulate in the community treasury. The dYdX community may redirect the DYDX from the community treasury with a vote falling under the requirement of the short timelock. Also, an additional proposal can be submitted to transfer the DYDX back to the community treasury if needed.
+Each epoch, the 383,562 DYDX currently allocated to DYDX stakers will instead accummulate in the rewards treasury. The dYdX community may redirect the DYDX from the rewards treasury with a vote falling under the requirement of the short timelock. Also, an additional proposal can be submitted to transfer the DYDX back to the rewards treasury if needed.
 
 The snapshot vote concluded with 7.7M DYDX in agreement (92.95%).
 https://snapshot.org/#/dydxgov.eth/proposal/0x756f174ea610a5891365f19881b3e300c719a80b16e8d67643aace30d4ca3bc4
@@ -34,7 +34,7 @@ There are 383,562 DYDX tokens allocated to Safety Staking Module (SSM) each epoc
 
 ## Specification
 
-Under the implementation, DYDX will accrue in the [Community Treasury](https://etherscan.io/address/0x639192D54431F8c816368D3FB4107Bc168d0E871) each epoch. The dYdX community will have control over accrued DYDX that previously would have been distributed to stakers in the liquidity module. With a governance vote, DYDX held in the community treasury can be (1) sent to the Community Treasury or (2) sent directly to an Ethereum address for any Community directed purpose.
+Under the implementation, DYDX will accrue in the [Rewards Treasury](https://etherscan.io/address/0x639192D54431F8c816368D3FB4107Bc168d0E871) each epoch. The dYdX community will have control over accrued DYDX that previously would have been distributed to stakers in the liquidity module. With a governance vote, DYDX held in the rewards treasury can be (1) sent to the Rewards Treasury or (2) sent directly to an Ethereum address for any Community directed purpose.
 
 The following code changes will be approved in relation to this proposal:
 - Setting the safety staking module rewards per second to 0.
@@ -46,7 +46,7 @@ See motivation.
 
 ## Implementation
 
-A full implementation is open-sourced on the dYdX Foundation Github: https://github.com/dydxfoundation/governance-contracts/pull/37
+A full implementation is open-sourced on the dYdX Foundation Github ([link](https://github.com/dydxfoundation/governance-contracts/pull/37)). We are targeting implementation date in Epoch 17, any time after November 22, 3 PM UTC.
 
 ## Copyright
 
