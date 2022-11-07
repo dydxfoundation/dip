@@ -16,8 +16,6 @@ The dYdX Safety Staking Module, which allowed users to stake DYDX that would the
 
 Xenophon Labs proposed winding down the Safety Staking Module due to its impracticality as an insurance fund and inefficient allocation of DYDX token.
 
-Each epoch, the 383,562 DYDX currently allocated to DYDX stakers will instead accummulate in the Rewards Treasury. The dYdX community may redirect the DYDX from the Rewards Treasury with a vote falling under the requirement of the short timelock. Also, an additional proposal can be submitted to transfer the DYDX back to the Rewards Treasury if needed.
-
 Each epoch, the 383,562 DYDX currently allocated to DYDX stakers will instead accumulate in the Rewards Treasury. The dYdX community may redirect the DYDX from the Rewards Treasury with a vote falling under the requirement of the short timelock. Also, an additional proposal can be submitted to transfer the DYDX back to the Community Treasury if needed.
 
 The snapshot vote concluded with 7.7M DYDX in agreement (92.95%).
@@ -48,7 +46,7 @@ See motivation.
 
 ## Implementation
 
-A full implementation is open-sourced on the dYdX Foundation Github ([link](https://github.com/dydxfoundation/governance-contracts/pull/37)). We are targeting implementation date in Epoch 17, any time after November 22, 3 PM UTC.
+A full implementation is open-sourced on the dYdX Foundation Github ([link](https://github.com/dydxfoundation/governance-contracts/pull/37)). We are targeting an implementation date in Epoch 17, any time after November 22, 3 PM UTC.
 
 ## Copyright
 
