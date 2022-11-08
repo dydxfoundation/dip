@@ -8,6 +8,7 @@ discussions: https://forums.dydx.community/discussion/7013-dydx-safety-staking-r
 created: 2022-11-02
 ---
 
+
 ## Simple Summary
 
 The dYdX Safety Staking Module, which allowed users to stake DYDX that would then be used as an insurance backstop in the case of a protocol shortfall event, will be shut down. The remaining rewards allocated to the Safety Staking Module will not be distributed, but accrue in the Rewards Treasury, which in turn can be directed by the community.
