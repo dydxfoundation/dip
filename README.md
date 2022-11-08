@@ -8,7 +8,7 @@ Your first PR should be a draft of the final DIP. It must follow the formatting 
 
 If your DIP requires images, the image files should be included in a subdirectory of the `assets` folder for that DIP as follow: `assets/DIP-X` (for DIP **X**). When linking to an image in the DIP, use relative links such as `../assets/DIP-X/image.png`.
 
-When you believe your DIP is mature and ready to progress past the WIP phase, you should ask to have your issue added to the governance discord where it can be discussed for inclusion in a future platform upgrade. If the community agrees to include it, the DIP editors will update the state of your DIP to 'Approved'.
+When you believe that your DIP is mature and ready to progress past the WIP phase, you should ask to have your issue added to the governance discord where it can be discussed for inclusion in a future platform upgrade. If the community agrees to include it, the DIP editors will update the state of your DIP to 'Approved'.
 
 ## DIP Statuses
 
