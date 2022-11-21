@@ -30,7 +30,7 @@ DRC discussion: https://commonwealth.im/dydx/discussion/7620-drc-dydx-operations
 
 ## Motivation
 
-dYdX is facing an important decision to scale the protocol thoughtfully as it transitions to full community ownership. As a community, we have to look ahead towards organizational transformation through the use of subDAOs. Accomplishing this goal will first require guidance on structural implementation.
+dYdX is facing an important decision to scale the protocol thoughtfully as it transitions to full community control. As a community, we have to look ahead towards organizational transformation through the use of subDAOs. Accomplishing this goal will first require guidance on structural implementation.
 
 Speaking from experience with the Grants Trust, launching a subDAO is not quite as simple as opening a wallet and getting community funding. There are tons of legal procedures, operational headaches, and other nuances to building a truly internet-native organization. Community members should be able to benefit from the know-how and experience gained through the process that led to the creation and operation of the Grants Trust.
 
@@ -40,7 +40,7 @@ To keep up with the competitive landscape, the DAO will also need to operate qui
 
 **The subDAO will be funded for a period of 6 months**
 
-Reverie will work with outside legal counsel to establish a Guernsey Purpose Trust. The Trust will be launched with the following contributors:
+Reverie will work with outside legal counsel to establish a Guernsey Purpose Trust. The Trust will be formed with the following contributors:
 
 **Trustees**
 - Reverie Reserves, LLC
@@ -80,7 +80,7 @@ The DYDX Amount to be transferred will be $360,000 / $X = **X** (rounded up to t
 
 ## Rationale
 
-The community has addressed certain concerns and issues with a dYdX Operations subDAO run by Reverie in the DRC, but overall consensus has been in strong support of launching. The dYdX Ops subDAO will act as launching pad for the growth of a subDAO run dYdX DAO.
+The community has addressed certain concerns and issues with a dYdX Operations subDAO run by Reverie in the DRC, namely regarding possible conflicts with the existing involvement in the Grants program. Since the responsibilities of this Trust are in no overlapping our responsibilities as Grants lead and Enforcer on the dYdX Grants Trust, we believe there is no conflict in our role as Trustee for the Ops Trust. Beyond these initial concerns, overall consensus has been in strong support of launching as indicated through the Snapshot vote and general positive feedback. The dYdX Ops subDAO will act as a catalyst for the growth of the dYdX DAO through the launching of new subDAOs.
 
 
 ## Copyright
