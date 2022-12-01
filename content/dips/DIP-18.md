@@ -21,7 +21,7 @@ The subDAO will be established through a Guernsey Purpose Trust, named the dYdX 
 To cover compensation and expenses, we are requesting a total of $360,000 in DYDX to be transferred from the Community Treasury to the Ops Trust multisig.
 The Operations subDAO will be operational for an initial 6 month period to deliver the responsibilites outlined below.
 
-The snapshot vote concluded with X voters and XM DYDX in agreement (X%). The vote results have shown significant support for the program.
+The snapshot vote concluded with 783 voters and 7.7M DYDX in agreement (75.43%). The vote results have shown significant support for the program.
 https://snapshot.org/#/dydxgov.eth/proposal/0xa710b0ca85e04ac2db123ae522ac5030a008ccbc8d4d413e83d18f6032b39758
 
 **Relevant Links**
