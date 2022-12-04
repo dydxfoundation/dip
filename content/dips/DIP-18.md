@@ -69,13 +69,13 @@ In total, $360,000 will be used to fund the initial 6 month operation of the Ops
 
 **DYDX Amount**
 
-The amount of DYDX to be moved from the community treasury to the Ops Trust Multisig will be determined using a 24h vwap of the trades executed on the most liquid exchange, namely Binance.com. The previous day's trades will be used to capture a full 24h window so as to avoid timing constraints. The following data file is used: https://data.binance.vision/data/spot/daily/trades/DYDXUSDT/DYDXUSDT-trades-2022-07-17.zip
+The amount of DYDX to be moved from the community treasury to the Ops Trust Multisig will be determined using a 24h vwap of the trades executed on the most liquid exchange, namely Binance.com. The previous day's trades will be used to capture a full 24h window so as to avoid timing constraints. The following data file is used: https://data.binance.vision/data/spot/daily/trades/DYDXUSDT/DYDXUSDT-trades-2022-12-03.zip
 
 This formula will be used to calculate the price: Σ(Price * Volume) / Σ(Volume).
 
-From the data, we find: $X / X = $X.
+From the data, we find: $9,437,383.51 / 5,088,359 = $1.855.
 
-The DYDX Amount to be transferred will be $360,000 / $X = **X** (rounded up to the nearest thousand for simplicity).
+The DYDX Amount to be transferred will be $360,000 / $1.855 = **195,000.00 DYDX** (rounded up to the nearest thousand for simplicity).
 
 
 ## Rationale
