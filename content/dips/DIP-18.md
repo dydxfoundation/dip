@@ -5,7 +5,7 @@ status: Proposed
 author: Reverie
 shortDescription: Establish a Guernsey Purpose Trust with $360,000
 discussions: https://commonwealth.im/dydx/discussion/7620-drc-dydx-operations-trust
-created: 2022-11-22
+created: 2022-12-05
 ---
 
 ## Simple Summary
@@ -80,7 +80,7 @@ The DYDX Amount to be transferred will be $360,000 / $1.855 = **195,000.00 DYDX*
 
 ## Rationale
 
-The community has addressed certain concerns and issues with a dYdX Operations subDAO run by Reverie in the DRC, namely regarding possible conflicts with the existing involvement in the Grants program. Since the responsibilities of this Trust are in no overlapping our responsibilities as Grants lead and Enforcer on the dYdX Grants Trust, we believe there is no conflict in our role as Trustee for the Ops Trust. Beyond these initial concerns, overall consensus has been in strong support of launching as indicated through the Snapshot vote and general positive feedback. The dYdX Ops subDAO will act as a catalyst for the growth of the dYdX DAO through the launching of new subDAOs.
+The community has addressed certain concerns and issues with a dYdX Operations subDAO run by Reverie in the DRC, namely regarding possible conflicts with the existing involvement in the Grants program. Since the responsibilities of this Trust do not overlap with our responsibilities as Grants lead and Enforcer on the dYdX Grants Trust, we believe there is no conflict in our role as Trustee for the Ops Trust. Beyond these initial concerns, overall consensus has been in strong support of launching as indicated through the Snapshot vote and general positive feedback. The dYdX Ops subDAO will act as a catalyst for the growth of the dYdX DAO through the launching of new subDAOs.
 
 
 ## Copyright
