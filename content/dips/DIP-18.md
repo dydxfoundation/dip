@@ -38,6 +38,10 @@ To keep up with the competitive landscape, the DAO will also need to operate qui
 
 ## Specification
 
+**Trust Agreement**
+If this proposal is passed, the Trust will be formed with dYdX Consent as defined in the Trust Agreement. The full agreement can be seen here:
+https://drive.google.com/file/d/16ubaQpxlnmybYkoSE5ML_NkgR36EyrH0/view?usp=sharing
+
 **The subDAO will be funded for a period of 6 months**
 
 Reverie will work with outside legal counsel to establish a Guernsey Purpose Trust. The Trust will be formed with the following contributors:
@@ -69,13 +73,13 @@ In total, $360,000 will be used to fund the initial 6 month operation of the Ops
 
 **DYDX Amount**
 
-The amount of DYDX to be moved from the community treasury to the Ops Trust Multisig will be determined using a 24h vwap of the trades executed on the most liquid exchange, namely Binance.com. The previous day's trades will be used to capture a full 24h window so as to avoid timing constraints. The following data file is used: https://data.binance.vision/data/spot/daily/trades/DYDXUSDT/DYDXUSDT-trades-2022-12-03.zip
+The amount of DYDX to be moved from the community treasury to the Ops Trust Multisig will be determined using a 24h vwap of the trades executed on the most liquid exchange, namely Binance.com. The previous day's trades will be used to capture a full 24h window so as to avoid timing constraints. The following data file is used: https://data.binance.vision/data/spot/daily/trades/DYDXUSDT/DYDXUSDT-trades-2022-12-10.zip
 
 This formula will be used to calculate the price: Σ(Price * Volume) / Σ(Volume).
 
-From the data, we find: $9,437,383.51 / 5,088,359 = $1.855.
+From the data, we find: $6,370,831.51 / 3,967,848 = $1.606.
 
-The DYDX Amount to be transferred will be $360,000 / $1.855 = **195,000.00 DYDX** (rounded up to the nearest thousand for simplicity).
+The DYDX Amount to be transferred will be $360,000 / $1.606 = **225,000.00 DYDX** (rounded up to the nearest thousand for simplicity).
 
 
 ## Rationale
