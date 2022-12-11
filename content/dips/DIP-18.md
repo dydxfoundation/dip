@@ -5,7 +5,7 @@ status: Proposed
 author: Reverie
 shortDescription: Establish a Guernsey Purpose Trust with $360,000
 discussions: https://commonwealth.im/dydx/discussion/7620-drc-dydx-operations-trust
-created: 2022-12-05
+created: 2022-12-12
 ---
 
 ## Simple Summary
