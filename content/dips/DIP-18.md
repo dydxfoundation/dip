@@ -71,6 +71,7 @@ We are requesting an additional **$100,000** to cover legal and operational expe
 
 In total, $360,000 will be used to fund the initial 6 month operation of the Ops subDAO.
 
+
 **DYDX Amount**
 
 The amount of DYDX to be moved from the community treasury to the Ops Trust Multisig will be determined using a 24h vwap of the trades executed on the most liquid exchange, namely Binance.com. The previous day's trades will be used to capture a full 24h window so as to avoid timing constraints. The following data file is used: https://data.binance.vision/data/spot/daily/trades/DYDXUSDT/DYDXUSDT-trades-2022-12-10.zip
