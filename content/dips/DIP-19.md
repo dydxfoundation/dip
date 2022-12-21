@@ -16,7 +16,7 @@ Remove `stkDYDX` from the LP rewards mechanism, and reallocate the `stkDYDX` ter
 
 We propose removing the `stkDYDX` term from the LP rewards mechanism and reallocating the `stkDYDX` term's weight to `MakerVolume`. The decision to remove the `stkDYDX` term follows naturally from the community's decision to wind down the safety staking module. The decision to reallocate the `stkDYDX` term's weight to the `MakerVolume` term comes from our opinion that volume is the best proxy for value that LPs provide to the protocol's traders.
 
-On December 10, 2022, there was a Snapshot vote on this which concluded with {numVoters} voters and {agreeingDYDX} DYDX in agreement ({agreementPercentage}) to make these LP rewards formula changes.
+On December 10, 2022, there was a Snapshot vote on this which concluded with 883 voters and 16,177,534 DYDX in agreement (99.97%) to make these LP rewards formula changes.
 
 **Relevant Links**
 * [DRC discussion](https://forums.dydx.community/discussion/7872-drc-remove-stkdydx-from-lp-rewards-formulas)
