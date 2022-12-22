@@ -5,7 +5,7 @@ status: Proposed
 author: Xenophon Labs (@XenophonLabs)
 shortDescription: Remove `stkDYDX` from LP rewards
 discussions: https://forums.dydx.community/discussion/7872-drc-remove-stkdydx-from-lp-rewards-formulas
-created: 2022-12-05
+created: 2022-12-10
 ---
 
 ## Simple Summary
