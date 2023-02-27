@@ -1,6 +1,6 @@
 ---
 DIP: 20
-title: Reduce Trading Rewads by ~45%
+title: Reduce Trading Rewards by ~45%
 status: Proposed
 author: Callen - Wintermute (@callenwm)
 shortDescription: Reduce Trading Rewards to 1,582,192 DYDX per epoch
