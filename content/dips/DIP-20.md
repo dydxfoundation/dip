@@ -38,7 +38,7 @@ The on-chain proposal to be approved by governance will include the following tr
 
 ## Rationale
 
-The magnitude of the cut to Trading Rewards was driven by the disproportionate allocation towards DYDX Trading Rewards in comparison to Liquidity Provider Rewards and the Community/Rewards Treasury. Furthermore, the change aligns with a new distribution and emission schedule outline in V4 Vanguard. There were community members not in favour of the reduction, however, given the current market conditions the majority of the community was in favour of this proposal as indicated in the Snapshot.
+The magnitude of the cut to Trading Rewards was driven by the disproportionate allocation towards DYDX Trading Rewards in comparison to Liquidity Provider Rewards and the Community/Rewards Treasury. Furthermore, the change aligns with a new distribution and emission schedule outlined in V4 Vanguard. There were community members not in favour of the reduction, however, given the current market conditions the majority of the community was in favour of this proposal as indicated in the Snapshot.
 
 ## Test Cases
 
