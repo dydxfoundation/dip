@@ -40,6 +40,6 @@ jobs:
         with:
           author_name: GitHub Actions
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
-          new_branch: Pending-DIPs-IPFS-Uploads
+          new_branch: Pending-DIPs/IPFS-Uploads
           message: '[PIPELINE] Committed IPFS uploads'
           add: '.'
