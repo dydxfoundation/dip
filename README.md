@@ -10,7 +10,7 @@ If your DIP requires images, the image files should be included in a subdirector
 
 When you believe your DIP is mature and ready to progress past the WIP phase, you should ask to have your issue added to the governance discord where it can be discussed for inclusion in a future platform upgrade. If the community agrees to include it, the DIP editors will update the state of your DIP to 'Approved'.
 
-## DIP Statuses 
+## DIP Statuses
 
 - **WIP** - a DIP that is still being developed.
 - **Proposed** - a DIP that is ready to be proposed on-chain.
