@@ -3,7 +3,7 @@ DIP: 21
 title: Increase Maximum Funding Rates (8h) to 4%
 status: Proposed
 author: Considered Finance / Reverie
-shortDescription: Rase the maximum funding rates from 0.75% to 4% on all markets
+shortDescription: Increase the maximum funding rates from 0.75% to 4% on all markets
 discussions: https://commonwealth.im/dydx/discussion/10234-drc-increase-the-maximum-funding-rate
 created: 2023-03-21
 ---
@@ -32,18 +32,15 @@ Increasing the maximum funding rate bounds reduces the need for manual intervent
 Increase the _max_funding_rate_ parameter from 0.75% to 4% to be implemented across all dYdX perpetual markets.
 
 The following code change will be approved as part of this proposal:
-- Change the max_funding_rate variable found in the dydx production_general_config of the starkware contract from '1120' to '5970.
+- Change the max_funding_rate variable found in the dydx production_general_config of the starkware contract from '1120' to '5970'.
+- 5970 is determined using 0.04 * 2 ^ 32 / (60 * 60 * 8)
 
-This change will be executed through a Starkware Priority Timelock Executor proposal.
+This change will be executed through a Starkware Priority Timelock Executor [proposal](https://docs.dydx.community/dydx-governance/resources/technical-overview).
 
 ## Rationale
 
 The community has expressed strong support for the proposal in both forum and snapshot voting stages. The proposal is an improvement to the health of dYdX markets and user experiences for active traders.
 
-
-## Implementation
-
-A full implementation of the proposed change can be found [here.](https://github.com/dydxfoundation/governance-contracts/pull/39/commits/f82ae1165d428b282da57831408da4520bd8570e#diff-7eb7d483f4a795b587ba7224faf58d79f0ffa5e2ef1924534d50c2c740e733ba)
 
 ## Copyright
 
