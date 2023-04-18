@@ -182,6 +182,20 @@
     "encodeIpfsHash": "0xe37f1d3d22bc1d86f6273c8513d30e3c81f44cd3befa3d2f04c849d82c6c0ab5"
   },
   {
+    "DIP": 21,
+    "title": "Increase Maximum Funding Rates (8h) to 4%",
+    "status": "Proposed",
+    "author": "Considered Finance / Reverie",
+    "shortDescription": "Increase the maximum funding rates from 0.75% to 4% on all markets",
+    "discussions": "https://commonwealth.im/dydx/discussion/10234-drc-increase-the-maximum-funding-rate",
+    "created": "2023-03-21T00:00:00.000Z",
+    "preview": "## Simple Summary\n\nIncrease the maximum 8h funding rate from 0.75% …",
+    "basename": "DIP-21",
+    "description": "\n\n## Simple Summary\n\nIncrease the maximum 8h funding rate from 0.75% to 4% across all markets.\n\n## Abstract\n\nConsidered Finance, through a research grant from the DGP, published a [paper](https://drive.google.com/file/d/1SyZJPmJXhyjapY_Dr9gJjU_gJLAwwWgf/view) on the implications of the existing funding rate bounds on dYdX markets. The research identified several occasions where the maximum rates have been insufficient to incentivize convergence between dYdX market prices and underlying index prices. This causes inefficiencies in dYdX markets and trading experiences. To solve for this problem, Considered Finance proposes increasing the maximum 8h rates to a bound between -4% and 4%, up from the existing -0.75% and 0.75%. This change will improve the trading experience and reduce the need for manual interventions through margin adjustments.\n\nThe snapshot vote concluded with 657 voters and 18M DYDX in agreement (99.99%). The vote results have shown significant support for the proposal.\n\n### Relevant Links\n- [Snapshot](https://snapshot.org/#/dydxgov.eth/proposal/0xfabe06f07828bf6d38110a17cb189ccd3e7b2f97d120023c7723f8893c89214d)\n- [Forum Discussion](https://commonwealth.im/dydx/discussion/10234-drc-increase-the-maximum-funding-rate)\n- [Paper](https://drive.google.com/file/d/1SyZJPmJXhyjapY_Dr9gJjU_gJLAwwWgf/view)\n\n## Motivation\nIncreasing the maximum funding rate bounds reduces the need for manual intervention on markets, for example increasing the initial margin fractions and imposing Close-Only modes. These interventions hamper user experiences for traders. Further, increasing the bound reduces the likelihood of dislocation between dYdX market prices and the underlying index prices, improving the health of dYdX markets.\n\n## Specification\n\n### Proposed Changes:\nIncrease the _max_funding_rate_ parameter from 0.75% to 4% to be implemented across all dYdX perpetual markets.\n\nThe following code change will be approved as part of this proposal:\n- Change the max_funding_rate variable found in the dydx production_general_config of the starkware contract from '1120' to '5970'.\n- 5970 is determined using 0.04 * 2 ^ 32 / (60 * 60 * 8)\n\nThis change will be executed through a Starkware Priority Timelock Executor [proposal](https://docs.dydx.community/dydx-governance/resources/technical-overview).\n\n## Rationale\n\nThe community has expressed strong support for the proposal in both forum and snapshot voting stages. The proposal is an improvement to the health of dYdX markets and user experiences for active traders.\n\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).\n",
+    "ipfsHash": "QmYakkrHLv3GpHJVWsMLu8CYWFHuCJZAds1oy6qXmTfiyc",
+    "encodeIpfsHash": "0x9831d69b0eb8be99c38c581592259b2b8b543e165b273b02e5ca51c6b2b0b527"
+  },
+  {
     "DIP": 3,
     "title": "Safety Module Restoration",
     "status": "Proposed",
