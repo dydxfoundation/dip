@@ -1,5 +1,5 @@
 ---
-DIP: 22
+DIP: 21
 title: Should the dYdX Community Transition from Commonwealth to Discourse?
 status: Approved
 author: @immutablelawyer
