@@ -2,7 +2,7 @@
 DIP: 21
 title: Should the dYdX Community Transition from Commonwealth to Discourse?
 status: Approved
-author: @immutablelawyer
+author: Immutablelawyer
 shortDescription: Increase governance participation at the forum-stage by transitioning to a more adequate forum platform. 
 discussions: https://commonwealth.im/dydx/discussion/10584-transitioning-to-discourse
 created: 2023.03.27
