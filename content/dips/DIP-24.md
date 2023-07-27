@@ -38,6 +38,11 @@ A full test case is provided in the implementation found [here](https://github.c
 ## Implementation
 A full implementation of the proposed changes can be found [here](https://github.com/dydxfoundation/governance-contracts/pull/46).
 
+**Timing of Implementation**
+- Epoch 25 ends on August 1, 2023, at 15:00 UTC.
+- 1,150,685 DYDX will be distributed under LP rewards in Epoch 25 (the current epoch).
+- If the proposal is successfully executed, the reduction of LP rewards will take effect immediately in Epoch 26. As a result, 575,343 DYDX will be distributed to LPs according to the LP rewards formulas in Epoch 26.
+
 ## Copyright
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
 
