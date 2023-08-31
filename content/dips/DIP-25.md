@@ -71,23 +71,29 @@ Lemma Solutions will be appointed to serve the Operator role.
 The following changes will be conducted on the dYdX Grants Trust:
 
 **Trustees**
-_Remove_
+
+_1. Remove_
+
 - GFX Labs, Inc.
 - Scalar Capital Management, LLC
 - Matthew Ryan Dobel
 - Alexios Valonasis
 
-_Appoint_
+_2. Appoint_
+
 - Felix Lutsch
 - Abra Tusz
 - Colin Chan
 - Bora Nam
 
 **Enforcer**
-_Remove_
+
+_1. Remove_
+
 - Reverie Reserves, LLC
 
-_Appoint_
+_2. Appoint_
+
 - Cliffton Lee
 
 ## Rationale
