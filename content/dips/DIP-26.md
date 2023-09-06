@@ -32,7 +32,7 @@ Proposal item 5 - giving wethDYDX the same governance and utility functions as E
 
 The potential mainnet launch of the dYdX Chain is quickly approaching. On August 3, 2023, dYdX Foundation published [“Exploring the Future of DYDX: A take on the Potential Migration of DYDX from Ethereum to the dYdX Chain”](https://dydx.foundation/blog/exploring-the-future-of-dydx) and explained that, as a Proof-of-Stake blockchain network, the dYdX Chain, if and when deployed on mainnet, will require a Layer 1 (“L1”) protocol token for staking to validators in order to secure the chain and for stakers of the L1 token to govern the network.
 
-As a result, the dYdX Foundation announced that it commissioned the development of an Ethereum Smart Contract that, if deployed, could enable a permissionless and autonomous one-way bridge for the DYDX token to be migrated from Ethereum to the dYdX Chain. In return for bridging, users will receive wethDYDX which has the same governance and utility functions as Ethereum-based DYDX (“ethDYDX”) on dYdX v3.
+As a result, the dYdX Foundation announced that it commissioned the development of an Ethereum Smart Contract that, if deployed, could enable a permissionless and autonomous one-way bridge for the DYDX token to be migrated from Ethereum to the dYdX Chain. In return for bridging, users will receive wethDYDX which could have the same governance and utility functions as Ethereum-based DYDX (“ethDYDX”) on dYdX v3.
 
 The Snapshot vote was held to establish alignment about:
 1.	The dYdX community adopting the dYdX v4 open-source software (if and when deployed on mainnet) as the next version of the dYdX protocol,
