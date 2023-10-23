@@ -17,7 +17,7 @@ An amendment to the dYdX Operations Trust Instrument that updates the “PURPOSE
 
 ## Abstract
 
-Following the successful [Snapshot vote](https://snapshot.org/#/dydxgov.eth/proposal/0x51659bfec4948e80c0b85316d3098e62ab085a95033f1c0fe6bcc72db3ebe814) to extend and fund the operations of the dYdX Operations Trust (DOT 2.0), the [original Trust Instrument](https://file.notion.so/f/f/baeb1306-87dc-4df3-895c-5369d6f72d2d/c99a549c-fea2-4a3d-9cf0-78676282f296/Redacted_DOT_-_Trust_Agreement.pdf?id=c0fd1922-a298-4dc3-90e6-3a540c1d48bb&table=block&spaceId=baeb1306-87dc-4df3-895c-5369d6f72d2d&expirationTimestamp=1697688000000&signature=H7O-QR1MX1IMSjQCQTvlliOBoC6mB-3_tCMD2P95SQc) was [amended](https://file.notion.so/f/f/baeb1306-87dc-4df3-895c-5369d6f72d2d/ccccf180-bd81-490c-8549-6cbab26eea08/Redacted_Trust_Amendment_-_Law_Provision.pdf?id=ed1c2290-5206-4daf-9f2b-9ff4912b75c0&table=block&spaceId=baeb1306-87dc-4df3-895c-5369d6f72d2d&expirationTimestamp=1697623200000&signature=jlfJ1mPJqmg0RF3I-6lXc48N4bH6c30o3VfFaFkaSOs) to reflect the [DOT 2.0 mandate](https://dydx.community/dashboard/proposal/13) approved through dYdX governance by the dYdX community. 
+Following the successful [Snapshot vote](https://snapshot.org/#/dydxgov.eth/proposal/0x51659bfec4948e80c0b85316d3098e62ab085a95033f1c0fe6bcc72db3ebe814) to extend and fund the operations of the dYdX Operations Trust (DOT 2.0), the [original Trust Instrument](https://drive.google.com/file/d/127DYP3MFt5PLdjxK0hHOrLeNWSNug75r/view?usp=sharing) was [amended](https://drive.google.com/file/d/1rVYm_fAduBEQz8U7Pvfc1za4s_dqmFWT/view?usp=sharing) to reflect the [DOT 2.0 mandate](https://dydx.community/dashboard/proposal/13) approved through dYdX governance by the dYdX community. 
 
 Furthermore, after discussing with legal counsel it was recommended to add a clause that requires all Trustees to operate in compliance with all laws, regulations, and rules applicable to their duties under the Trust Instrument.
 
@@ -114,11 +114,11 @@ Purposes); and
 (i) in accordance with the terms of this Settlement; and
 (ii) only for the advancement of the Purposes.*”
 
-The full proposal drafted in collaboration with our legal counsel can be found [here](https://file.notion.so/f/f/baeb1306-87dc-4df3-895c-5369d6f72d2d/ccccf180-bd81-490c-8549-6cbab26eea08/Redacted_Trust_Amendment_-_Law_Provision.pdf?id=ed1c2290-5206-4daf-9f2b-9ff4912b75c0&table=block&spaceId=baeb1306-87dc-4df3-895c-5369d6f72d2d&expirationTimestamp=1697623200000&signature=jlfJ1mPJqmg0RF3I-6lXc48N4bH6c30o3VfFaFkaSOs).
+The full proposal drafted in collaboration with our legal counsel can be found [here](https://drive.google.com/file/d/1rVYm_fAduBEQz8U7Pvfc1za4s_dqmFWT/view?usp=sharing).
 
 ## Implementation
 
-Following the successful [Snapshot vote](https://snapshot.org/#/dydxgov.eth/proposal/0x46c40ddea980c824fd7787f9b73b6b1a842162dee8d155ad08a4d90a93dd333e) of this proposal, a supplementary instrument of amendment containing these changes has been created and signed by all Trustees and can be found [here](https://file.notion.so/f/f/baeb1306-87dc-4df3-895c-5369d6f72d2d/ccccf180-bd81-490c-8549-6cbab26eea08/Redacted_Trust_Amendment_-_Law_Provision.pdf?id=ed1c2290-5206-4daf-9f2b-9ff4912b75c0&table=block&spaceId=baeb1306-87dc-4df3-895c-5369d6f72d2d&expirationTimestamp=1697623200000&signature=jlfJ1mPJqmg0RF3I-6lXc48N4bH6c30o3VfFaFkaSOs). 
+Following the successful [Snapshot vote](https://snapshot.org/#/dydxgov.eth/proposal/0x46c40ddea980c824fd7787f9b73b6b1a842162dee8d155ad08a4d90a93dd333e) of this proposal, a supplementary instrument of amendment containing these changes has been created and signed by all Trustees and can be found [here](https://drive.google.com/file/d/1rVYm_fAduBEQz8U7Pvfc1za4s_dqmFWT/view?usp=sharing). 
 
 
 ## Copyright
