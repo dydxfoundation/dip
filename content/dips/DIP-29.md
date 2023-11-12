@@ -4,11 +4,11 @@ DIP: 29
 
 title: Bridging the Community and Rewards Treasuries
 
-status: WIP
+status: Proposed
 
 author: Xenophon Labs | Sponsored by Wintermute
 
-shortDescription: Wind down v3 Rewards; Upgrade the Treasury contract; and Bridge the vested ethDYDX on Community and Rewards Treasuries from Ethereum to the dYdX Chain.
+shortDescription: Wind down v3 Rewards; Upgrade the Treasury contract; and Bridge the vested and unvested ethDYDX on Community and Rewards Treasuries from Ethereum to the dYdX Chain.
 
 discussions: https://dydx.forum/t/drc-bridging-the-community-and-rewards-treasuries/1258
 
@@ -160,22 +160,6 @@ Therefore there are 450,000,000 ethDYDX - 209,480,504.5392799029 ethDYDX = 240,5
 ### Python script for calculating total rewards
 
 ```
-import requests
-def fetch_data(url):
-    """Fetches data from the given URL."""
-    response = requests.get(url)
-    response.raise_for_status()
-    return response.json()
-def compute_cumulative_rewards(data):
-    """Computes the cumulative rewards from the given data."""
-    return sum(int(entry[1]) for entry in data)
-def main():
-    url = "https://cloudflare-ipfs.com/ipfs/bafybeic22w5uxknvce4kzci7fftgezsccxgpvruyh2ro4a4qkbxpi5pdqu"
-    data = fetch_data(url)
-    total_rewards = compute_cumulative_rewards(data)
-    print(f"Cumulative rewards: {total_rewards}")
-if __name__ == "__main__":
-    main()
 import requests
 def fetch_data(url):
     """Fetches data from the given URL."""
